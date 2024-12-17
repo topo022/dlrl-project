@@ -1,0 +1,30 @@
+# 编译产生的中间文件
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# BibTeX / Biber 生成文件
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+
+# 编辑器或操作系统相关
+*.swp
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+
+# 输出的 PDF 文件（可根据需求移除此行）
+#*.pdf
+
+# 临时构建目录（如果存在）
+build/
+output/
