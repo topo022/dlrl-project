@@ -1,0 +1,69 @@
+% ------------------------------------------------------------------------------
+%     前言区域
+% ------------------------------------------------------------------------------
+\documentclass{beamer}
+\usepackage{ctex}
+% \usepackage{CJK}
+\usepackage{hyperref}
+% \usepackage[T1]{fontenc}
+
+
+% other packages
+\usepackage{latexsym,amsmath,xcolor,multicol,booktabs,calligra}
+\usepackage{graphicx,pstricks,listings,stackengine}
+\usepackage{subfigure}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+% \usepackage{subcaption}
+
+\usepackage[mathlines]{lineno}% Enable numbering of text and display math
+%\usepackage{mathptmx}
+\setmainfont{SimSun} % or another available font
+% ------------------------------------------------------------------------------
+%     标题页
+% ------------------------------------------------------------------------------
+\author{author1 \and author2 \and author3 \and author4}
+\title{Comparison of Methods of Speeding-up generative diffusion models}
+% \subtitle{}
+% \institute{}
+\date{2024-12-25}
+\usepackage{uir}
+%\logo{\includegraphics[width=0.5 cm]{Picture/uir.jpeg}} % 每一页添加logo
+
+% defs
+\def\cmd#1{\texttt{\color{red}\footnotesize $\backslash$#1}}
+\def\env#1{\texttt{\color{blue}\footnotesize #1}}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+\definecolor{halfgray}{gray}{0.55}
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\bfseries\color{deepblue},
+    emphstyle=\ttfamily\color{deepred},    % Custom highlighting style
+    stringstyle=\color{deepgreen},
+    numbers=left,
+    numberstyle=\small\color{halfgray},
+    rulesepcolor=\color{red!20!green!20!blue!20},
+    frame=shadowbox,
+}
+
+% \graphicspath{{./Picture/}} % 图片所在位置
+
+% ------------------------------------------------------------------------------
+%     正文
+% ------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\tableofcontents
+
+
+
+\begin{frame}
+    \begin{center}
+        {\Huge\calligra Thanks!}
+    \end{center}
+\end{frame}
+
+\end{document}
